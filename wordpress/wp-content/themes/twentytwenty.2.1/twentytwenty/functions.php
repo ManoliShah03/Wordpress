@@ -138,6 +138,7 @@ function twentytwenty_theme_support() {
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
 
+
 	/*
 	 * Adds `async` and `defer` support for scripts registered or enqueued
 	 * by the theme.
@@ -386,8 +387,10 @@ function twentytwenty_sidebar_registration() {
 		array_merge(
 			$shared_args,
 			array(
+
 				'name'        => __( 'Footer #1', 'twentytwenty' ),
 				'id'          => 'sidebar-1',
+
 				'description' => __( 'Widgets in this area will be displayed in the first column in the footer.', 'twentytwenty' ),
 			)
 		)
